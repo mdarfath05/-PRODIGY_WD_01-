@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <nav id="navbar">
+        <div class="container">
+            <div class="nav">
+            <div class="logo">
+                <a href="#home"><img src="logo.jpg" alt="Logo"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    
+    <header id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Welcome to Courses</h1>
+                    <p>"Unlock your potential with our expert-led courses, designed to transform your skills and accelerate your career. Whether you're just starting out or looking to advance, our hands-on, practical approach ensures you gain the knowledge and confidence to succeed in today's competitive world. Join us and take the first step towards mastering your craft!"</p>
+                    <a href="#" class="btn">Explore Services</a>
+                </div>
+              
+        </div>
+    </header>
+
+    
+    <section id="about" class="section">
+        <div class="container">
+            <h2> About Us</h2>
+            <p>"At Courses, we are passionate about empowering individuals to achieve their goals through high-quality education and training. Our team of industry experts is dedicated to providing innovative and practical courses that cater to the ever-evolving demands of the modern world. We believe in learning by doing, and our programs are designed to equip you with the skills, knowledge, and confidence to excel in your chosen field. Join us on a journey of growth, creativity, and success."
+        </div>
+    </section>
+
+    
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="b.jpg" alt="Service 1">
+                    </div>
+                    <h3>PCM-B</h3>
+                </div>
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="c.jpg" alt="Service 2">
+                    </div>
+                    <h3>PCM-CS</h3>
+                </div>
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="p.jpg" alt="Service 3">
+                    </div>
+                    <h3>Physics</h3>
+                </div>
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="c.png" alt="Service 4">
+                    </div>
+                    <h3>Chemistry</h3>
+                </div>
+            </div><div class="services-grid">
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="m.png" alt="Service 5">
+                    </div>
+                    <h3>Maths</h3>
+                </div>
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="bio.png" alt="Service 6">
+                    </div>
+                    <h3>Biology</h3>
+                </div>
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="cs.png" alt="Service 7">
+                    </div>
+                    <h3>Cs</h3>
+                </div>
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="e.png" alt="Service 8">
+                    </div>
+                    <h3>English</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-form">
+                    <h2>Contact Us</h2>
+                    <form id="contactForm" action="#" method="post">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name:</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name:</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number:</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="services">Select Courses:</label>
+                                <select id="services" name="services">
+                                    <option value="PCM-B">PCM-B</option>
+                                    <option value="PCM-CS">PCM-CS</option>
+                                    <option value="Maths ">Maths</option>
+                                    <option value="Biology ">Biology</option>
+                                    <option value="CS">CS</option>
+                                    <option value="Chemistry ">Chemistry</option>
+                                    <option value="English">English</option>
+
+                                </select>
+                            </div>
+                        </div>
+                       <div class="form-row">
+                            <div class="form-group">
+                                <label for="message">Message:</label>
+                                <textarea id="message" name="message" required></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
